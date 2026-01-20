@@ -40,7 +40,7 @@
             android:layout_height="match_parent"
             android:contentDescription="@string/desc_album_art"
             android:scaleType="centerCrop"
-            android:src="@drawable/basubexo" />
+            android:src="@drawable/oppakimjong" />
     </androidx.cardview.widget.CardView>
 
     <TextView
@@ -50,7 +50,7 @@
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="32dp"
         android:gravity="center"
-        android:text="@string/default_song_title"
+        android:text="Oppa Gangnam stai"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -63,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/default_artist"
+        android:text="Kim young Un"
         android:textColor="#AAAAAA"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -158,18 +158,29 @@
     <Button
         android:id="@+id/btnLyrics"
         android:layout_width="wrap_content"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:layout_marginBottom="32dp"
         android:backgroundTint="#2A2A2A"
         android:text="@string/lyrics"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
+        android:textSize="20sp"
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent" />
 
-    </Button>
+    <ImageView
+        android:id="@+id/upArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.5dp"
+        android:clickable="false"
+        android:src="@drawable/uparrowx24"
+        app:layout_constraintEnd_toEndOf="@id/btnLyrics"
+        app:layout_constraintStart_toStartOf="@id/btnLyrics"
+        app:layout_constraintTop_toTopOf="@id/btnLyrics"
+        app:tint="#ffffff" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
