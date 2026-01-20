@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">yuxiaofy</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="button1_text">BUTTON1</string>
+    <string name="button2_text">BUTTON2</string>
+    <string name="lyrics">Lyrics</string>
+    <string name="header_now_playing">Now Playing</string>
+    <string name="default_song_title">Ba sú bê xô</string>
+    <string name="default_artist">A Mong Ú</string>
+    <string name="default_current_time">1:24</string>
+    <string name="default_total_time">3:45</string>
+    <string name="desc_album_art">Album Art</string>
+    <string name="desc_prev">Previous</string>
+    <string name="desc_play">Play</string>
+    <string name="desc_next">Next</string>
+</resources>
