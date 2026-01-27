@@ -163,6 +163,14 @@
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvSongs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                tools:itemCount="6"
+                tools:listitem="@layout/item_home_song" />
+
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 
@@ -228,7 +236,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:singleLine="true"
-                        android:text="The Fat Rat"
+                        android:text="TheFatRat"
                         android:textColor="#AAAAAA"
                         android:textSize="12sp" />
                 </LinearLayout>
