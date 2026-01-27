@@ -40,7 +40,7 @@
             android:layout_height="match_parent"
             android:contentDescription="@string/desc_album_art"
             android:scaleType="centerCrop"
-            android:src="@drawable/oppakimjong" />
+            android:src="@drawable/unitythefatrat" />
     </androidx.cardview.widget.CardView>
 
     <TextView
@@ -50,7 +50,7 @@
         android:layout_marginHorizontal="24dp"
         android:layout_marginTop="32dp"
         android:gravity="center"
-        android:text="Oppa Gangnam stai"
+        android:text="Unity"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -63,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Kim young Un"
+        android:text="The Fat Rat"
         android:textColor="#AAAAAA"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
