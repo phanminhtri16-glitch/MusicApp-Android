@@ -155,32 +155,4 @@
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/btnLyrics"
-        android:layout_width="wrap_content"
-        android:layout_height="60dp"
-        android:layout_marginBottom="32dp"
-        android:backgroundTint="#2A2A2A"
-        android:text="@string/lyrics"
-        android:textAllCaps="false"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        app:cornerRadius="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/upArrow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="0.5dp"
-        android:clickable="false"
-        android:src="@drawable/uparrowx24"
-        app:layout_constraintEnd_toEndOf="@id/btnLyrics"
-        app:layout_constraintStart_toStartOf="@id/btnLyrics"
-        app:layout_constraintTop_toTopOf="@id/btnLyrics"
-        app:tint="#ffffff" />
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

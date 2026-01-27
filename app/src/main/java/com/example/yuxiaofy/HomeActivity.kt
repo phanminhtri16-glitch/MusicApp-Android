@@ -66,8 +66,6 @@ class HomeActivity : AppCompatActivity() {
             // 3. Đổi tiêu đề danh sách
             listTitle.text = titleText
 
-            // 4. TODO: Lọc lại dữ liệu trong RecyclerView Adapter tại đây
-            Toast.makeText(this, "Switched to $titleText", Toast.LENGTH_SHORT).show()
         }
     }
 
