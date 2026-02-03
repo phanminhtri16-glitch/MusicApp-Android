@@ -8,4 +8,11 @@
     <string name="desc_prev">Previous</string>
     <string name="desc_play_pause">Play or Pause</string>
     <string name="desc_next">Next</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="button1_text">BUTTON1</string>
+    <string name="button2_text">BUTTON2</string>
+    <string name="lyrics">Lyrics</string>
+    <string name="greeting_text">Good Evening,\nMusic Lover!</string>
+    <string name="search_hint">Search...</string>
+    <string name="desc_search_icon">Search Icon</string>
 </resources>
