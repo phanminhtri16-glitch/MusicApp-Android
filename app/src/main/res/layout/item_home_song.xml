@@ -56,8 +56,8 @@
         </LinearLayout>
 
         <ImageView
-            android:layout_width="28dp"
-            android:layout_height="28dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
             android:src="@android:drawable/ic_media_play"
             app:tint="@color/white" />
     </LinearLayout>

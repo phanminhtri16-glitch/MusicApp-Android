@@ -17,6 +17,15 @@
         android:orientation="vertical"
         android:padding="24dp">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp"
+            android:letterSpacing="0.1"
+            android:text="@string/now_playing"
+            android:textColor="#A7FFFFFF"
+            android:textSize="24sp" />
+
         <androidx.cardview.widget.CardView
             android:layout_width="220dp"
             android:layout_height="220dp"
@@ -27,6 +36,7 @@
                 android:id="@+id/cover_art"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:contentDescription="@string/desc_cover_art"
                 android:scaleType="centerCrop"
                 android:src="@drawable/unitythefatrat" />
         </androidx.cardview.widget.CardView>
@@ -39,7 +49,7 @@
             android:ellipsize="marquee"
             android:gravity="center"
             android:singleLine="true"
-            android:text="Unity"
+            android:text="@string/song_unity"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -50,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:gravity="center"
-            android:text="TheFatRat"
+            android:text="@string/artist_thefatrat"
             android:textColor="#AAAAAA"
             android:textSize="16sp" />
 
@@ -73,6 +83,7 @@
                 android:id="@+id/prev_btn"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
+                android:contentDescription="@string/desc_prev"
                 android:padding="8dp"
                 android:src="@android:drawable/ic_media_previous"
                 app:tint="#FFFFFF" />
@@ -82,6 +93,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="32dp"
+                android:contentDescription="@string/desc_play_pause"
                 android:src="@android:drawable/ic_media_play"
                 app:backgroundTint="#BB86FC"
                 app:fabSize="normal"
@@ -91,6 +103,7 @@
                 android:id="@+id/next_btn"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
+                android:contentDescription="@string/desc_next"
                 android:padding="8dp"
                 android:src="@android:drawable/ic_media_next"
                 app:tint="#FFFFFF" />
@@ -108,7 +121,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            android:text="Up Next"
+            android:text="@string/up_next"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold" />
