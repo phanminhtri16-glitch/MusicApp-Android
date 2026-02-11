@@ -18,6 +18,17 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize">
 
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg_gradient_overlay"
+                android:gravity="center"
+                android:text="Yuxiaofy"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
             <ImageView
                 android:layout_width="32dp"
                 android:layout_height="32dp"
